@@ -43,13 +43,13 @@ def take_command():
             
             command = command.lower()
             
-            if 'alexa' in command:
-                command = command.replace('alexa','')
+            if 'michaela' in command:
+                command = command.replace('michaela','')
                 print(command)
     except:
         pass
     return command
-def run_alexa():
+def run_michaela():
     command = take_command()
     print(command)
     #PLAY SONG ON YOUTUBE
@@ -78,5 +78,5 @@ def run_alexa():
         talk("Couldn't quite get your Command. Please type again")
 
 while True:
-    run_alexa()
+    run_michaela()
         
