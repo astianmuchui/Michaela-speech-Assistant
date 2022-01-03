@@ -57,7 +57,7 @@ def run_michaela():
         
         song = command.replace('play','')
         
-        talk('playing'+ song)
+        talk('playing'+ song + '...')
         
         pywhatkit.playonyt(song)
         
