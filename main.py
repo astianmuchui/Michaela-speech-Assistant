@@ -11,7 +11,7 @@ import wikipedia
 import pyjokes
 
 
-listener = sr.Recogniser()
+listener = sr.Recognizer()
 
 engine = pyttsx3.init()
 
